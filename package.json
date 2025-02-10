@@ -1,0 +1,17 @@
+{
+  "name": "rocket-tailwind",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./build/css/output.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.5"
+  }
+}
